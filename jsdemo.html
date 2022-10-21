@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script>
+        function myFunction(){
+            document.getElementById("newFunc").innerHTML= "this is my page";
+}
+    </script>
+</head>
+<body>
+
+    <h2> What can java do?</h2>
+
+    <!-- java in a click-->
+
+    <p id="hello"> java can chamge the content on the page</p>
+
+    <button type="button" onclick="document.getElementById('hello').innerHTML = 'Hello everyone, this is made with java'">
+    click for cool stuff
+    </button>
+
+    <button type="button"
+    onclick="document.getElementById('hello').innerHTML= 'java can change content'">
+    click for others
+    </button>
+
+    <!-- next step of java -->
+
+    
+<p id="newFunc"> Hi danny </p>
+<button type ="button" onclick="myFunction()">Hi everyone 
+</button>
+    
+
+    
+</body>
+</html>
